@@ -1,0 +1,46 @@
+// When you inherit protocol from AnyObject, protocol inherits from AnyObject protocol, specifying the particular type of object which can adopt my custom protocol (class types). We mark any references to this protocol as weak and in order to have weak references, we need a protocol which can only be used with a reference type ( meaning a class, not a struct or enum).
+
+
+
+    func editItemVC(_ controller: AddItemViewController, didFinishEditing item: GGListItem) {
+        // firstIndex(where:) is a function that finds the first item in the 'items' array that satisfies a condition. The condition is provided in the closure { $0 === item }.
+        // Inside this closure, $0 refers to the current element being inspected in the 'items' array. We are asking Swift to find the first element where the current element ($0) and the 'item' parameter refer to the exact same instance (not merely two instances that are equal in value).
+        // The === operator is used here to compare object identities, which means it checks whether two variables (in this case $0 and item) refer to exactly the same instance of a class.
+        if let index = items.firstIndex(where: { $0 === item }) {
+            // If such an item is found, we create an IndexPath for this item in the table view (assuming there is only one section). The row of the IndexPath is the index we just found.
+            let indexPath = IndexPath(row: index, section: 0)
+            // We then ask the table view for the cell at this IndexPath. The cell may not exist, for example if that row of the table view is currently off-screen, so we get an optional UITableViewCell back.
+            if let cell = tableView.cellForRow(at: indexPath) {
+                // If we got a cell (i.e., if the cell is not nil), we configure this cell with the new item information.
+                configureText(for: cell, with: item)
+            }
+        }
+        // Finally, we pop the AddItemViewController off the navigation stack to return to the GoalGalaxyListVC view controller.
+        navigationController?.popViewController(animated: true)
+    }
+    
+    
+    Github https://github.com/pavelgtr/Goal-Galaxy-List-.git
+    
+    or SSH git@github.com:pavelgtr/Goal-Galaxy-List-.git
+    
+    …or create a new repository on the command line
+echo "# Goal-Galaxy-List-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:pavelgtr/Goal-Galaxy-List-.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:pavelgtr/Goal-Galaxy-List-.git
+git branch -M main
+git push -u origin main
+
+
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.

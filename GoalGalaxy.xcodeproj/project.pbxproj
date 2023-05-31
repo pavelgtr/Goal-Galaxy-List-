@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47A18B372A26901D002C8870 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 47A18B362A26901D002C8870 /* notes */; };
+		47C276BA2A1E612F00A0C23C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C276B92A1E612F00A0C23C /* AppDelegate.swift */; };
+		47C276BC2A1E612F00A0C23C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C276BB2A1E612F00A0C23C /* SceneDelegate.swift */; };
+		47C276C12A1E612F00A0C23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C276BF2A1E612F00A0C23C /* Main.storyboard */; };
+		47C276C32A1E613000A0C23C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C276C22A1E613000A0C23C /* Assets.xcassets */; };
+		47C276C62A1E613000A0C23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C276C42A1E613000A0C23C /* LaunchScreen.storyboard */; };
+		47C276CE2A1E61C900A0C23C /* GoalGalaxyListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C276CD2A1E61C900A0C23C /* GoalGalaxyListVC.swift */; };
+		47C276D12A1EB45E00A0C23C /* GGListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C276D02A1EB45D00A0C23C /* GGListItem.swift */; };
+		47C276D32A20022100A0C23C /* ItemDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C276D22A20022100A0C23C /* ItemDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47A18B362A26901D002C8870 /* notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
+		47C276B62A1E612F00A0C23C /* GoalGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C276B92A1E612F00A0C23C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47C276BB2A1E612F00A0C23C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47C276C02A1E612F00A0C23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47C276C22A1E613000A0C23C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47C276C52A1E613000A0C23C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47C276C72A1E613000A0C23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C276CD2A1E61C900A0C23C /* GoalGalaxyListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalGalaxyListVC.swift; sourceTree = "<group>"; };
+		47C276D02A1EB45D00A0C23C /* GGListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GGListItem.swift; sourceTree = "<group>"; };
+		47C276D22A20022100A0C23C /* ItemDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47C276B32A1E612F00A0C23C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47C276AD2A1E612F00A0C23C = {
+			isa = PBXGroup;
+			children = (
+				47A18B362A26901D002C8870 /* notes */,
+				47C276B82A1E612F00A0C23C /* GoalGalaxy */,
+				47C276B72A1E612F00A0C23C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47C276B72A1E612F00A0C23C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47C276B62A1E612F00A0C23C /* GoalGalaxy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47C276B82A1E612F00A0C23C /* GoalGalaxy */ = {
+			isa = PBXGroup;
+			children = (
+				47C276CF2A1E620400A0C23C /* aux files */,
+				47C276D42A20024E00A0C23C /* Controller */,
+				47C276D52A20025700A0C23C /* Model */,
+				47C276BF2A1E612F00A0C23C /* Main.storyboard */,
+				47C276C72A1E613000A0C23C /* Info.plist */,
+			);
+			path = GoalGalaxy;
+			sourceTree = "<group>";
+		};
+		47C276CF2A1E620400A0C23C /* aux files */ = {
+			isa = PBXGroup;
+			children = (
+				47C276B92A1E612F00A0C23C /* AppDelegate.swift */,
+				47C276BB2A1E612F00A0C23C /* SceneDelegate.swift */,
+				47C276C22A1E613000A0C23C /* Assets.xcassets */,
+				47C276C42A1E613000A0C23C /* LaunchScreen.storyboard */,
+			);
+			path = "aux files";
+			sourceTree = "<group>";
+		};
+		47C276D42A20024E00A0C23C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47C276CD2A1E61C900A0C23C /* GoalGalaxyListVC.swift */,
+				47C276D22A20022100A0C23C /* ItemDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47C276D52A20025700A0C23C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C276D02A1EB45D00A0C23C /* GGListItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47C276B52A1E612F00A0C23C /* GoalGalaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C276CA2A1E613000A0C23C /* Build configuration list for PBXNativeTarget "GoalGalaxy" */;
+			buildPhases = (
+				47C276B22A1E612F00A0C23C /* Sources */,
+				47C276B32A1E612F00A0C23C /* Frameworks */,
+				47C276B42A1E612F00A0C23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoalGalaxy;
+			productName = GoalGalaxy;
+			productReference = 47C276B62A1E612F00A0C23C /* GoalGalaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47C276AE2A1E612F00A0C23C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					47C276B52A1E612F00A0C23C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 47C276B12A1E612F00A0C23C /* Build configuration list for PBXProject "GoalGalaxy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47C276AD2A1E612F00A0C23C;
+			productRefGroup = 47C276B72A1E612F00A0C23C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47C276B52A1E612F00A0C23C /* GoalGalaxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47C276B42A1E612F00A0C23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C276C62A1E613000A0C23C /* LaunchScreen.storyboard in Resources */,
+				47C276C32A1E613000A0C23C /* Assets.xcassets in Resources */,
+				47A18B372A26901D002C8870 /* notes in Resources */,
+				47C276C12A1E612F00A0C23C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47C276B22A1E612F00A0C23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C276D32A20022100A0C23C /* ItemDetailVC.swift in Sources */,
+				47C276BA2A1E612F00A0C23C /* AppDelegate.swift in Sources */,
+				47C276BC2A1E612F00A0C23C /* SceneDelegate.swift in Sources */,
+				47C276CE2A1E61C900A0C23C /* GoalGalaxyListVC.swift in Sources */,
+				47C276D12A1EB45E00A0C23C /* GGListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47C276BF2A1E612F00A0C23C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C276C02A1E612F00A0C23C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47C276C42A1E613000A0C23C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47C276C52A1E613000A0C23C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47C276C82A1E613000A0C23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47C276C92A1E613000A0C23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47C276CB2A1E613000A0C23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoalGalaxy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiveraPavel.GoalGalaxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47C276CC2A1E613000A0C23C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV3XS73HY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoalGalaxy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiveraPavel.GoalGalaxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47C276B12A1E612F00A0C23C /* Build configuration list for PBXProject "GoalGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C276C82A1E613000A0C23C /* Debug */,
+				47C276C92A1E613000A0C23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C276CA2A1E613000A0C23C /* Build configuration list for PBXNativeTarget "GoalGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47C276CB2A1E613000A0C23C /* Debug */,
+				47C276CC2A1E613000A0C23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47C276AE2A1E612F00A0C23C /* Project object */;
+}
